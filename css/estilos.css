@@ -131,7 +131,7 @@ main {
 }
 
 .carrousel-img {
-    height: 30vh;
+    min-height: 30vh;
     display: grid;
     grid-template-rows: 1fr;
     grid-auto-columns: 1fr 1fr 1fr;
@@ -305,7 +305,7 @@ main {
 
     display: grid;
     grid-template-columns: 1fr .3fr;
-    grid-template-rows: .8fr 1fr;
+    grid-template-rows: .8fr .5fr;
     background-color: rgba(28, 28, 26, 255)
 }
 
@@ -323,10 +323,7 @@ main {
 
 .section-p-button {
     grid-column: 1/3;
-    grid-row: 2/3;
-    background-image: url(../img/eventooo.png);
-    background-repeat: no-repeat;
-    background-position: 50% 60%;
+    grid-row: 2/3; 
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -361,6 +358,15 @@ main {
     align-self: flex-end;
     align-items: center;
     width: 28%;
+}
+
+.n-f-c {
+    color: white;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.n-f-c:hover {
+    color: yellow;
 }
 
 
@@ -473,7 +479,7 @@ h1 {
 .horarios-clases {
     display: grid;
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
     background-color:black;
     grid-template-columns: 1fr .3fr ;
     grid-template-rows: .4fr 1fr .4fr 1fr ;
@@ -682,7 +688,7 @@ h1 {
     }
 
     .article-main-index {
-        grid-template-rows: 100vh 100vh 120vh;
+        grid-template-rows: 100vh 100vh 1fr;
     }
 
     .section-evento {
@@ -694,7 +700,7 @@ h1 {
         background-position: 50% 0%;
         justify-content: flex-end;
         margin-bottom: 3rem;
-        min-height: 85vh;
+        height: 40vh;
 
 
     }
@@ -758,7 +764,7 @@ h1 {
         font-size: 9rem;
     }
     .section-p-button{
-        min-height: 80vh;
+        height: 30vh;
     }
     .conteiner-foto-dojo {
         min-height: 100vh;
@@ -821,6 +827,10 @@ h1 {
             font-size: 9rem;
             text-align: center;
         }
+        .section-evento {
+            align-items: end;
+            height: 69vh;
+        }
             
 }
 
@@ -878,14 +888,18 @@ h1 {
     }
 
     .section-p-button {
-        background-size: contain;
+        height: 15vh ;
+    }
+
+    .div-button {
+        height: 31vh;
     }
 
    
 }
 @media screen and (max-width: 480px) {
     .section-p-button {
-        min-height: 62vh; 
+        height: 45vh;
     }
 
     .logo-dojo {
@@ -915,6 +929,9 @@ h1 {
     .mapa-contacto {
         width:150;
         height:150
+    }
+    .div-button {
+        height: 40vh;
     }
 }
 
