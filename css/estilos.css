@@ -851,12 +851,17 @@ h1 {
         }
 
         .section-h2 {
-            font-size: 9rem;
+            font-size: 5rem;
             text-align: center;
         }
         .section-evento {
             align-items: end;
             height: 69vh;
+        }
+        .section-p-button a button {
+            width: 7rem;
+            height: 3rem;
+            font-size: 2rem;
         }
             
 }
@@ -986,6 +991,11 @@ h1 {
     margin-left: 1rem;
     font-family: 'Vina Sans', cursive;
     font-size: 2rem; }
+    .section-p-button p {
+        color: yellow;
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;}
 }
 
     
