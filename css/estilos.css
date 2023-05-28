@@ -104,6 +104,10 @@ header {
     justify-content: flex-end;
 }
 
+.navbar {
+    z-index: 3;
+}
+
 .footer {
     background-color: rgba(28, 28, 26, 255);
     display: flex;
