@@ -688,7 +688,7 @@ h1 {
 
 
 
-@media screen and (max-width:1882px) {
+@media screen and (max-width:1890px) {
     .section-h2 {
         font-size: 15rem;
     }
@@ -716,7 +716,7 @@ h1 {
     }
 
     .section-evento {
-        grid-template-rows: .5fr 1fr;
+        grid-template-rows: .7fr 1fr;
 
     }
 
@@ -733,6 +733,14 @@ h1 {
         width: 100%;
 
     }
+    .n-f-c {
+        font-size: 3.75rem;
+    }
+
+    .section-p-button p {
+        font-size: 3rem;
+    }
+
    
 
 }
@@ -754,6 +762,13 @@ h1 {
 
     .section-index-h1 p:nth-child(3) {
         font-size: 7rem;
+    }
+    .n-f-c {
+        font-size: 3.75rem;
+    }
+
+    .section-p-button p {
+        font-size: 3rem;
     }
 
 }
@@ -819,10 +834,17 @@ h1 {
         width: 70%; 
     }
     .n-f-c {
-       
+        font-size: 3.75rem;
     }
 
+    .section-p-button p {
+        font-size: 2.5rem;
+    }
 
+    .div-button {
+        width: 100%;
+        height: 20rem;
+    }
 
 
 }
@@ -853,10 +875,11 @@ h1 {
         .section-h2 {
             font-size: 5rem;
             text-align: center;
+            height: 60%;
         }
         .section-evento {
-            align-items: end;
-            height: 69vh;
+            align-items: center;
+            height: 50vh;
         }
         .section-p-button a button {
             width: 7rem;
@@ -924,7 +947,7 @@ h1 {
     }
 
     .div-button {
-        height: 31vh;
+        height: 27vh;
     }
 
     .tarjeta div p  {
@@ -946,6 +969,16 @@ h1 {
         font-size: 3rem;
     }
 
+    .section-h2 {
+        font-size: 4rem;
+        text-align: center;
+        height: 60%;
+    }
+    .section-p-button p {
+        font-size: 1.5rem; }
+        .n-f-c {
+            font-size: 1.75rem; }
+
    
 }
 @media screen and (max-width: 480px) {
@@ -957,7 +990,7 @@ h1 {
         height: 20rem;
     }
     .section-h2 {
-        font-size: 6rem; 
+        font-size: 4rem;
     }
     .section-index-h1 p:nth-child(3) {
         margin-bottom: 5rem; 
@@ -996,7 +1029,13 @@ h1 {
         font-size: 2rem;
         width: 100%;
         text-align: center;}
+        .section-p-button p {
+            font-size: 1.5rem; }
+            .n-f-c {
+                font-size: 1.75rem;
+            }
 }
+
 
     
 
