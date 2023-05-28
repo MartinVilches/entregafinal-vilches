@@ -665,14 +665,15 @@ h1 {
 
 }
 
-.text-info {
+.h1-contacto {
     justify-content: center;
     font-size: 15rem;
     font-family: 'Vina Sans', cursive;
     display: flex;
+    color: white;
 }
 
-.text-info:hover {
+.h1-contacto:hover {
     color: yellow;
     transition: 1s;
 }
@@ -846,6 +847,10 @@ h1 {
         height: 20rem;
     }
 
+    .h1-contacto {
+        font-size: 12rem;
+    }
+
 
 }
 
@@ -978,6 +983,19 @@ h1 {
         font-size: 1.5rem; }
         .n-f-c {
             font-size: 1.75rem; }
+        .h1-contacto {
+            font-size: 7rem;
+        }
+
+        .carrousel-img {
+            display: flex;
+            flex-direction: column;
+        }
+        .stylo-h5 {
+            font-size: 2rem; 
+        }
+
+          
 
    
 }
