@@ -1,0 +1,26 @@
+@use "inicio-fin/header";
+@use "inicio-fin/footer";
+@use "index";
+@use "clases";
+@use "img";
+@use "evento";
+@use "contactos";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div-grid {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: 80vh 1fr 5vh;
+
+}
+

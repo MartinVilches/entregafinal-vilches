@@ -1,0 +1,130 @@
+.color-main {
+
+    background-color: rgba(28, 28, 26, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-evento {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    background-image: url(../img/eventooo.png);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+
+}
+.evento {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 5rem;
+    color: yellow;
+
+}
+
+.div-img-evento {
+    display: flex;
+    justify-content: center;
+}
+
+
+.img-main-evento {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 50rem;
+    max-height: 50rem
+}
+
+
+.h2-main-evento {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 5rem;
+    color: yellow;
+}
+
+.div-proximo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.p-evento-main {
+    color: white;
+    font-family: 'Vina Sans', cursive;
+    font-size: 3rem;
+}
+
+.proximo-evento {
+    display: flex;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+
+    max-height: 500px;
+
+
+
+
+}
+
+.cintos-div {
+    display: flex;
+    align-items: center;
+}
+
+.copas-article {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .img-main-evento {
+        height: 22rem;
+    }
+
+    .cintos-div {
+
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .p-evento-main {
+        text-align: center;
+
+    }
+
+    .h2-main-evento {
+        text-align: center;
+    }
+
+    .proximo-evento {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .p-evento-main {
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    .img-main-evento {
+        height: 14rem;
+        width: auto;
+    }
+
+    .h2-main-evento {
+        font-size: 3rem;
+    }
+
+}

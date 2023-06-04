@@ -1,0 +1,22 @@
+.footer {
+    background-color: rgba(28, 28, 26, 255);
+    display: flex;
+    grid-area: footer;
+    height: 7vh;
+    justify-content: center;
+
+    a {
+        img {
+            height: 50px;
+        }
+    }
+}
+
+footer{
+    p{
+        color: white;
+    }
+    
+}
+
+
