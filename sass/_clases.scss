@@ -13,6 +13,8 @@ h1 {
     height: 5rem;
     font-family: 'Vina Sans', cursive;
     font-size: 5rem;
+    position: relative;
+    z-index: 3;
 }
 
 .article-img {
@@ -34,7 +36,7 @@ h1 {
 
 .tarjeta {
     width: 300px;
-    background-color: black;
+    background-color: transparent;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -161,6 +163,13 @@ h1 {
     }
 }
 
+.scaled {
+    &:hover {
+        transform: scale(1.1);
+    }
+    transition: 1s;
+    }
+
 
 @media screen and (max-width:785px) {
     .tarjeta {
@@ -193,6 +202,12 @@ h1 {
     .horarios-myj {
         font-size: 3rem;
     }
+    .scaled {
+        &:hover {
+            transform: scale(1.1);
+        }
+        transition: 1s;
+        }
 
 
 }
@@ -206,4 +221,10 @@ h1 {
         font-family: 'Vina Sans', cursive;
         font-size: 2rem;
     }
+    .scaled {
+        &:hover {
+            transform: scale(1.1);
+        }
+        transition: 1s;
+        }
 }
