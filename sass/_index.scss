@@ -1,3 +1,9 @@
+@use "variables" as*;
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
 
 main {
     min-height: 60vh;
@@ -11,7 +17,7 @@ main {
 }
 
 :root {
-    --color1: #74cae5;
+    $celeste: #74cae5;
 }
 
 
@@ -28,7 +34,7 @@ main {
     align-self: center;
     font-size: 11rem;
     letter-spacing: 1rem;
-    color: rgba(255, 255, 255, 0.842);
+    color: $blanco;
 
 }
 
@@ -42,7 +48,7 @@ main {
         &:nth-child(2) {
             grid-column: 1/2;
             grid-row: 2/3;
-            color: rgb(255, 255, 255, 0.842);
+            color: $blanco;
             align-self: center;
             justify-self: center;
             font-size: 11rem;
@@ -52,7 +58,7 @@ main {
         &:nth-child(3) {
             grid-column: 1/2;
             grid-row: 3/4;
-            color: rgb(255, 255, 255, 0.842);
+            color:$blanco;
             align-self: center;
             justify-self: center;
             font-size: 11rem;
@@ -76,7 +82,7 @@ main {
     display: grid;
     grid-template-columns: .8fr 1fr;
     grid-template-rows: 1fr 2fr;
-    background-color: rgb(0, 184, 197);
+    background-color: $celeste;
 }
 
 .conteiner-foto-dojo {
@@ -111,7 +117,7 @@ main {
 
     a {
         text-decoration: none;
-        color: white;
+        color: $blanco;
         font-size: 5rem;
         letter-spacing: 1rem;
         margin-left: 3rem;
@@ -136,7 +142,7 @@ main {
 .section-h2 {
     font-family: 'Big Shoulders Stencil Display', cursive;
     font-size: 20rem;
-    color: white;
+    color: $blanco;
 }
 
 .section-p-button {
@@ -146,29 +152,28 @@ main {
 }
 
 .p-1 {
-    color: yellow;
+    color:$amarillo;
     font-size: 2rem;
     width: 60%;
     text-align: center;
 }
 
 .p-2 {
-    color: aliceblue;
+    color: $blanco;
     font-size: 1rem;
     width: 60%;
     text-align: center;
 }
 
 .button-1 {
-    width: 10rem;
-    height: 3rem;
+    @include sizes(10rem, 3rem);
     font-size: 1rem;
     border-radius: 1rem;
     transition: .5s;
 
     &:hover {
         color: black;
-        background-color: yellow;
+        background-color: $amarillo;
         transition: .5s;
     }
 }
@@ -182,11 +187,11 @@ main {
 }
 
 .n-f-c {
-    color: white;
+    color:$blanco;
     font-family: 'Big Shoulders Stencil Display', cursive;
 
     &:hover {
-        color: yellow;
+        color: $amarillo;
     }
 }
 

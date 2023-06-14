@@ -1,3 +1,4 @@
+@use "../variables" as*;
 header {
 
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.253), rgb(0, 0, 0)), url(../img/maxilogo.png);
@@ -23,7 +24,7 @@ header {
 .header-s {
     grid-column: 2/4;
     grid-row: 2/3;
-    color: var(--color1);
+    color: $celeste;
     font-size: 9rem;
     letter-spacing: 1rem;
     font-family: 'Vina Sans', cursive;

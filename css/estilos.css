@@ -22,7 +22,7 @@ header {
 .header-s {
   grid-column: 2/4;
   grid-row: 2/3;
-  color: var(--color1);
+  color: #74cae5;
   font-size: 9rem;
   letter-spacing: 1rem;
   font-family: "Vina Sans", cursive;
@@ -107,10 +107,6 @@ main {
   font-family: "Vina Sans", cursive;
 }
 
-:root {
-  --color1: #74cae5;
-}
-
 .article-main-index {
   display: grid;
   grid-template-columns: 100%;
@@ -124,7 +120,7 @@ main {
   align-self: center;
   font-size: 11rem;
   letter-spacing: 1rem;
-  color: rgba(255, 255, 255, 0.842);
+  color: white;
 }
 
 .section-index-h1 {
@@ -136,7 +132,7 @@ main {
 .section-index-h1 p:nth-child(2) {
   grid-column: 1/2;
   grid-row: 2/3;
-  color: rgba(255, 255, 255, 0.842);
+  color: white;
   align-self: center;
   justify-self: center;
   font-size: 11rem;
@@ -145,7 +141,7 @@ main {
 .section-index-h1 p:nth-child(3) {
   grid-column: 1/2;
   grid-row: 3/4;
-  color: rgba(255, 255, 255, 0.842);
+  color: white;
   align-self: center;
   justify-self: center;
   font-size: 11rem;
@@ -166,7 +162,7 @@ main {
   display: grid;
   grid-template-columns: 0.8fr 1fr;
   grid-template-rows: 1fr 2fr;
-  background-color: rgb(0, 184, 197);
+  background-color: #74cae5;
 }
 
 .conteiner-foto-dojo {
@@ -236,15 +232,15 @@ main {
 }
 
 .p-2 {
-  color: aliceblue;
+  color: white;
   font-size: 1rem;
   width: 60%;
   text-align: center;
 }
 
 .button-1 {
-  width: 10rem;
   height: 3rem;
+  width: 10rem;
   font-size: 1rem;
   border-radius: 1rem;
   transition: 0.5s;
@@ -434,7 +430,7 @@ h1 {
 }
 
 .h1-main {
-  color: var(--color1);
+  color: #74cae5;
   height: 5rem;
   font-family: "Vina Sans", cursive;
   font-size: 5rem;
@@ -493,7 +489,7 @@ h1 {
 }
 
 .tarjeta div p {
-  color: var(--color1);
+  color: #74cae5;
 }
 
 .card {
@@ -537,7 +533,7 @@ h1 {
   color: white;
 }
 .horarios-div:hover {
-  color: var(--color1);
+  color: #74cae5;
   transition: 1s;
 }
 
@@ -551,7 +547,7 @@ h1 {
   color: white;
 }
 .horarios-myj:hover {
-  color: var(--color1);
+  color: #74cae5;
   transition: 1s;
 }
 
@@ -740,9 +736,9 @@ h1 {
 }
 
 .img-main-evento {
-  display: flex;
-  width: 100%;
   height: auto;
+  width: 100%;
+  display: flex;
   max-width: 50rem;
   max-height: 50rem;
 }
@@ -766,9 +762,9 @@ h1 {
 }
 
 .proximo-evento {
-  display: flex;
-  width: 100%;
   height: auto;
+  width: 100%;
+  display: flex;
   max-width: 500px;
   max-height: 500px;
 }
@@ -822,8 +818,8 @@ h1 {
 }
 
 .mapa-contacto {
-  width: 400;
   height: 300;
+  width: 400;
 }
 
 .h1-contacto {

@@ -1,3 +1,7 @@
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
 .color-main {
 
     background-color: rgba(28, 28, 26, 255);
@@ -36,9 +40,8 @@
 
 
 .img-main-evento {
+    @include sizes(100%, auto);
     display: flex;
-    width: 100%;
-    height: auto;
     max-width: 50rem;
     max-height: 50rem
 }
@@ -64,11 +67,9 @@
 }
 
 .proximo-evento {
+    @include sizes(100%, auto);
     display: flex;
-    width: 100%;
-    height: auto;
     max-width: 500px;
-
     max-height: 500px;
 
 
