@@ -29,7 +29,7 @@ header {
 }
 
 .navbar-toggler-icon {
-  background-color: var(--color1);
+  background-color: white;
 }
 
 .pepito {
@@ -589,10 +589,10 @@ h1 {
     height: 13rem;
   }
   .horarios-div {
-    font-size: 3rem;
+    font-size: 1.7rem;
   }
   .horarios-myj {
-    font-size: 3rem;
+    font-size: 1.7rem;
   }
   .scaled {
     transition: 1s;
@@ -615,6 +615,12 @@ h1 {
   }
   .scaled:hover {
     transform: scale(1.1);
+  }
+  .horarios-div {
+    font-size: 1.3rem;
+  }
+  .horarios-myj {
+    font-size: 1.7rem;
   }
 }
 .carrousel-img {

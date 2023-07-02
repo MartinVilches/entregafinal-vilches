@@ -197,11 +197,11 @@ h1 {
     }
 
     .horarios-div {
-        font-size: 3rem;
+        font-size: 1.7rem;
     }
 
     .horarios-myj {
-        font-size: 3rem;
+        font-size: 1.7rem;
     }
     .scaled {
         &:hover {
@@ -227,5 +227,12 @@ h1 {
             transform: scale(1.1);
         }
         transition: 1s;
+        }
+        .horarios-div {
+            font-size: 1.3rem;
+        }
+    
+        .horarios-myj {
+            font-size: 1.7rem;
         }
 }
